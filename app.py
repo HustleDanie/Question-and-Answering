@@ -5,7 +5,7 @@ from transformers import pipeline
 st.set_page_config(page_title="QA with RoBERTa", layout="centered")
 
 # Title
-st.title("🤖 Question Answering with RoBERTa (Hugging Face Transformers)")
+st.title("🤖 Question Answering ")
 st.write("Input any context and ask a question. The model will extract the answer from the context.")
 
 # Load QA pipeline with caching to avoid reloading
